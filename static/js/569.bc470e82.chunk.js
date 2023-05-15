@@ -1,0 +1,2 @@
+"use strict";(self.webpackChunktoothpick=self.webpackChunktoothpick||[]).push([[569],{569:function(t,c,n){n.r(c);n(791);var e=n(184);c.default=function(){return(0,e.jsx)("h1",{children:"Contact"})}}}]);
+//# sourceMappingURL=569.bc470e82.chunk.js.map
