@@ -1,14 +1,16 @@
 import React, { lazy, Suspense } from "react";
-import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
-import "./App.css";
-import Home from "./components/Home";
 import NotFound from "./components/NotFound";
+import Navbar from "./components/Navbar";
 import Loading from "./components/Loading";
+import { HashRouter as Router, Route, Routes } from "react-router-dom";
+import Home from "./components/Home";
 const About = lazy(() => import("./components/About"));
 const Contact = lazy(() => import("./components/Contact"));
 
 function App() {
   return (
+    <>
+    <Navbar />
     <Router>
       <div className="App">
         <Routes>
@@ -29,10 +31,10 @@ function App() {
             }
           />
           <Route path="/" element={<Home />} />
-          <Route path="*" element={<NotFound />} />
+          <Route path="*" element={<NotFound />}></Route>
         </Routes>
       </div>
-    </Router>
+    </Router></>
   );
 }
 
