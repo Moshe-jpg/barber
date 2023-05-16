@@ -1,19 +1,24 @@
 {
   "files": {
-    "main.css": "/barber/static/css/main.bcf8e28f.css",
-    "main.js": "/barber/static/js/main.89f64e4d.js",
+    "main.css": "/barber/static/css/main.40300642.css",
+    "main.js": "/barber/static/js/main.01d31f31.js",
     "static/js/787.07f71454.chunk.js": "/barber/static/js/787.07f71454.chunk.js",
+    "static/media/mullet.png": "/barber/static/media/mullet.3fe45fdae816a4d37d1b.png",
+    "static/media/beard.png": "/barber/static/media/beard.9af426c3c89773353bf1.png",
+    "static/media/mid-fade.png": "/barber/static/media/mid-fade.4c5b9c8109a78fccc615.png",
+    "static/media/low-taper.png": "/barber/static/media/low-taper.c9f507d37462355780f0.png",
+    "static/media/burst-fade.png": "/barber/static/media/burst-fade.3d88cdb3f0a0c40ad000.png",
     "static/media/barbershop.png": "/barber/static/media/barbershop.7b6316383dab303b7fb8.png",
+    "static/media/fire-logo.png": "/barber/static/media/fire-logo.a062d288eae1bb40f787.png",
     "static/media/scissors.png": "/barber/static/media/scissors.e8c587e2a97f680008a2.png",
     "static/media/loading.png": "/barber/static/media/loading.7d3849de179f53235f91.png",
-    "static/media/barber-logo.png": "/barber/static/media/barber-logo.0889d3dbeffaa0058cf3.png",
     "index.html": "/barber/index.html",
-    "main.bcf8e28f.css.map": "/barber/static/css/main.bcf8e28f.css.map",
-    "main.89f64e4d.js.map": "/barber/static/js/main.89f64e4d.js.map",
+    "main.40300642.css.map": "/barber/static/css/main.40300642.css.map",
+    "main.01d31f31.js.map": "/barber/static/js/main.01d31f31.js.map",
     "787.07f71454.chunk.js.map": "/barber/static/js/787.07f71454.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.bcf8e28f.css",
-    "static/js/main.89f64e4d.js"
+    "static/css/main.40300642.css",
+    "static/js/main.01d31f31.js"
   ]
 }
