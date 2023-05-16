@@ -1,14 +1,31 @@
+@import url("https://fonts.googleapis.com/css2?family=Alkatra&family=Castoro+Titling&family=Cormorant+Garamond&family=Prompt&display=swap");
+
 * {
   padding: 0;
   margin: 0;
   box-sizing: border-box;
   scroll-behavior: smooth;
   overflow-x: hidden;
-  font-family: var(--main-font);
 }
 
 *::-webkit-scrollbar {
   display: none;
+}
+
+:root {
+  --gold: #d36b00;
+  --white: #ffffff;
+  --black: #000000;
+  --light-transparent: rgba(255, 255, 255, 0.2);
+  --dark-transparent: rgba(0, 0, 0, 0.2);
+  --one-font: "Cormorant Garamond", serif;
+  --two-font: "Prompt", sans-serif;
+  --three-font: "Alkatra", cursive;
+  --four-font: "Castoro Titling", cursive;
+}
+
+body {
+  font-family: var(--one-font), var(--two-font);
 }
 
 section {
@@ -19,7 +36,9 @@ section {
   width: 100%;
 }
 
-a, li, button {
+a,
+li,
+button {
   all: unset;
 }
 
@@ -55,24 +74,28 @@ nav {
   left: 0;
   top: 0;
   width: 100%;
-  min-height: 5vh;
+  min-height: 10vh;
   display: flex;
   align-items: center;
   justify-content: space-between;
   flex-direction: row;
   padding: 0 25px;
-  background: rgba(255, 255, 255, 0);
+  background: var(--dark-transparent);
   backdrop-filter: blur(5px);
   z-index: 900;
 }
 
-/* nav .icon-container, nav .nav-container {
-  width: 50%;
-} */
+nav .icon-container,
+nav .nav-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  /* padding: 10px 0 0; */
+}
 
 nav .home-icon {
   width: 55px;
- 
+  padding: 10px 0;
 }
 
 nav ul {
@@ -80,28 +103,165 @@ nav ul {
   align-items: center;
   justify-content: flex-end;
   flex-direction: row;
-
 }
 
 nav ul li {
   padding: 0 10px;
 }
 
+nav ul li button,
 nav ul li a {
-  font-size: 22px;
+  font-size: 24px;
+  color: var(--white);
+  letter-spacing: 1.5px;
 }
 
 /* Home component */
 
 #home {
-  background: #ffffff;
+  background: url("./assets/barbershop.png");
+  background-size: cover;
+  background-position: 50%;
 }
 
-#home .starter-img {
+#home::before {
+  content: "";
   position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
   height: 100%;
+  background-color: rgba(0, 0, 0, 0.7);
+  z-index: 10;
+}
+
+#home header {
+  position: relative;
+  z-index: 100;
+  text-align: center;
+  letter-spacing: 3px;
+  font-family: var(--three-font);
 }
 
 #home header h1 {
+  font-size: 8.5rem;
+  color: var(--gold);
+}
+
+#home header .header-logo {
+  width: 5rem;
+}
+
+#home header h2 {
+  font-size: 3rem;
+  color: var(--white);
+}
+
+/* services component */
+
+#services {
+  background: linear-gradient(90deg, #1a1200 10%, #896700 40%, #1a1200);
+  flex-direction: column;
+  position: relative;
+}
+
+#services::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.3);
+  z-index: 10;
+}
+
+#services .service-header {
+  position: relative;
+  z-index: 100;
+  text-align: center;
+  letter-spacing: 3px;
+  margin: 40vh 0;
+}
+
+#services .service-header h1 {
+  color: var(--white);
+  font-family: var(--four-font);
   font-size: 4.5rem;
+  letter-spacing: 3.5px;
+  white-space: nowrap;
+}
+
+#services .styles-container {
+  width: 100%;
+  max-width: 1400px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  z-index: 100;
+}
+
+#services .styles-container .style-item {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  width: 100%;
+  height: 80vh;
+}
+
+#services .styles-container .left {
+  flex-direction: row;
+}
+
+#services .styles-container .right {
+  flex-direction: row-reverse;
+}
+
+#services .styles-container header {
+  color: var(--white);
+  font-size: 5.5rem;
+  letter-spacing: 2.5px;
+  width: 40%;
+  text-align: center;
+  font-family: var(--four-font);
+}
+
+#services .styles-container .img-container {
+  width: 40%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#services .styles-container .img-container img {
+  width: 60%;
+  height: auto;
+}
+
+/* offering component */
+
+#offering {
+  background: var(--black);
+  flex-direction: column;
+  position: relative;
+}
+
+#offering header {
+  position: relative;
+  z-index: 100;
+  text-align: center;
+  letter-spacing: 3px;
+  font-family: var(--three-font);
+}
+
+#offering header h1 {
+  font-size: 8.5rem;
+  color: var(--gold);
+}
+
+#offering header h2 {
+  font-size: 3rem;
+  color: var(--white);
 }

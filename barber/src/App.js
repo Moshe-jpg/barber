@@ -1,40 +1,43 @@
-import React, { lazy, Suspense } from "react";
-import NotFound from "./components/NotFound";
+import React, { useState, lazy, Suspense } from "react";
 import Navbar from "./components/Navbar";
+import Page from "./components/Page";
+// import Footer from "./components/Footer";
 import Loading from "./components/Loading";
-import { HashRouter as Router, Route, Routes } from "react-router-dom";
-import Home from "./components/Home";
-const About = lazy(() => import("./components/About"));
 const Contact = lazy(() => import("./components/Contact"));
+<Suspense fallback={<Loading />}>
+  <Contact />
+</Suspense>;
 
-function App() {
+const App = () => {
+  const [pages] = useState([
+    {
+      name: "Home",
+    },
+    {
+      name: "Contact",
+    },
+  ]);
+
+  const [currentPage, setCurrentPage] = useState(pages[0]);
+
   return (
     <>
-    <Navbar />
-    <Router>
+      <Navbar
+        pages={pages}
+        setCurrentPage={setCurrentPage}
+        currentPage={currentPage}
+      />
       <div className="App">
-        <Routes>
-          <Route
-            path="/about"
-            element={
-              <Suspense fallback={<Loading />}>
-                <About />
-              </Suspense>
-            }
-          />
-          <Route
-            path="/contact"
-            element={
-              <Suspense fallback={<Loading />}>
-                <Contact />
-              </Suspense>
-            }
-          />
-          <Route path="/" element={<Home />} />
-          <Route path="*" element={<NotFound />}></Route>
-        </Routes>
+        <main>
+          <Page
+            pages={pages}
+            setCurrentPage={setCurrentPage}
+            currentPage={currentPage}
+          ></Page>
+        </main>
       </div>
-    </Router></>
+      {/* <Footer pages={pages} setCurrentPage={setCurrentPage} /> */}
+    </>
   );
 }
 

@@ -1,21 +1,43 @@
 import React from "react";
-import toothpickIcon from "../../assets/logo_transparent.png";
+import barberIcon from "../../assets/fire-logo.png";
 
-const Navbar = () => {
+const Navbar = (props) => {
+  const { pages = [], setCurrentPage } = props;
+
   return (
     <nav>
       <a href="/" className="icon-container">
-        <img className="home-icon" src={toothpickIcon} alt="home"></img>
+        <img className="home-icon" src={barberIcon} alt="home"></img>
       </a>
       <ul className="nav-container">
         <li>
-          <a href="/">Home</a>
+          <a
+            onClick={() => {
+              setCurrentPage(pages[0]);
+            }}
+            href="#home"
+          >
+            Home
+          </a>
         </li>
         <li>
-          <a href="#/About">About</a>
+          <a
+            onClick={() => {
+              setCurrentPage(pages[0]);
+            }}
+            href="#services"
+          >
+            Services
+          </a>
         </li>
         <li>
-          <a href="#/Contact">Contact</a>
+          <button
+            onClick={() => {
+              setCurrentPage(pages[1]);
+            }}
+          >
+            Contact
+          </button>
         </li>
       </ul>
     </nav>
