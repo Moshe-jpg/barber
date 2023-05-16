@@ -1,20 +1,19 @@
 {
   "files": {
-    "main.css": "/toothpick/static/css/main.4f5679d7.css",
-    "main.js": "/toothpick/static/js/main.f1f771e8.js",
-    "static/js/394.56b81f8a.chunk.js": "/toothpick/static/js/394.56b81f8a.chunk.js",
-    "static/js/569.bc470e82.chunk.js": "/toothpick/static/js/569.bc470e82.chunk.js",
-    "static/js/787.76a90ca6.chunk.js": "/toothpick/static/js/787.76a90ca6.chunk.js",
-    "static/media/loading.png": "/toothpick/static/media/loading.f29a7d2df2f08a9269a1.png",
-    "index.html": "/toothpick/index.html",
-    "main.4f5679d7.css.map": "/toothpick/static/css/main.4f5679d7.css.map",
-    "main.f1f771e8.js.map": "/toothpick/static/js/main.f1f771e8.js.map",
-    "394.56b81f8a.chunk.js.map": "/toothpick/static/js/394.56b81f8a.chunk.js.map",
-    "569.bc470e82.chunk.js.map": "/toothpick/static/js/569.bc470e82.chunk.js.map",
-    "787.76a90ca6.chunk.js.map": "/toothpick/static/js/787.76a90ca6.chunk.js.map"
+    "main.css": "/barber/static/css/main.bcf8e28f.css",
+    "main.js": "/barber/static/js/main.89f64e4d.js",
+    "static/js/787.07f71454.chunk.js": "/barber/static/js/787.07f71454.chunk.js",
+    "static/media/barbershop.png": "/barber/static/media/barbershop.7b6316383dab303b7fb8.png",
+    "static/media/scissors.png": "/barber/static/media/scissors.e8c587e2a97f680008a2.png",
+    "static/media/loading.png": "/barber/static/media/loading.7d3849de179f53235f91.png",
+    "static/media/barber-logo.png": "/barber/static/media/barber-logo.0889d3dbeffaa0058cf3.png",
+    "index.html": "/barber/index.html",
+    "main.bcf8e28f.css.map": "/barber/static/css/main.bcf8e28f.css.map",
+    "main.89f64e4d.js.map": "/barber/static/js/main.89f64e4d.js.map",
+    "787.07f71454.chunk.js.map": "/barber/static/js/787.07f71454.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.4f5679d7.css",
-    "static/js/main.f1f771e8.js"
+    "static/css/main.bcf8e28f.css",
+    "static/js/main.89f64e4d.js"
   ]
 }
