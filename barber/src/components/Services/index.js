@@ -47,7 +47,7 @@ const styles = () => {
   return (
     <section id="services">
       <header className="service-header">
-        <h1>To Look Clean Asf With A...</h1>
+        <h1>To Look Clean AF With<br></br>A Fire Gentleman Touch...</h1>
       </header>
       <ul className="styles-container">
         {hairstyles.map((style, index) => (
@@ -68,7 +68,7 @@ const styles = () => {
         ))}
       </ul>
       <header className="service-header">
-        <h1>Is Actually Pretty Simple...</h1>
+        <h1>Has Never Been This Easy...</h1>
       </header>
     </section>
   );

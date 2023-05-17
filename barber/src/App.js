@@ -1,44 +1,30 @@
-import React, { useState, lazy, Suspense } from "react";
+import React from "react";
 import Navbar from "./components/Navbar";
-import Page from "./components/Page";
+import ContactBtn from "./components/ContactBtn";
+import Home from "./components/Home";
+import Services from "./components/Services";
+import Steps from "./components/Steps";
+// import Testimonials from "./components/Testimonials";
+import Contact from "./components/Contact";
 // import Footer from "./components/Footer";
-import Loading from "./components/Loading";
-const Contact = lazy(() => import("./components/Contact"));
-<Suspense fallback={<Loading />}>
-  <Contact />
-</Suspense>;
 
 const App = () => {
-  const [pages] = useState([
-    {
-      name: "Home",
-    },
-    {
-      name: "Contact",
-    },
-  ]);
-
-  const [currentPage, setCurrentPage] = useState(pages[0]);
-
   return (
     <>
-      <Navbar
-        pages={pages}
-        setCurrentPage={setCurrentPage}
-        currentPage={currentPage}
-      />
+      <Navbar />
       <div className="App">
         <main>
-          <Page
-            pages={pages}
-            setCurrentPage={setCurrentPage}
-            currentPage={currentPage}
-          ></Page>
+          <Home />
+          <Services />
+          <Steps />
+          {/* <Testimonials /> */}
+          <Contact />
+          <ContactBtn />
         </main>
       </div>
       {/* <Footer pages={pages} setCurrentPage={setCurrentPage} /> */}
     </>
   );
-}
+};
 
 export default App;

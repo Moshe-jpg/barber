@@ -1,9 +1,7 @@
 import React from "react";
 import barberIcon from "../../assets/fire-logo.png";
 
-const Navbar = (props) => {
-  const { pages = [], setCurrentPage } = props;
-
+const Navbar = () => {
   return (
     <nav>
       <a href="/" className="icon-container">
@@ -11,33 +9,13 @@ const Navbar = (props) => {
       </a>
       <ul className="nav-container">
         <li>
-          <a
-            onClick={() => {
-              setCurrentPage(pages[0]);
-            }}
-            href="#home"
-          >
-            Home
-          </a>
+          <a href="#home">Home</a>
         </li>
         <li>
-          <a
-            onClick={() => {
-              setCurrentPage(pages[0]);
-            }}
-            href="#services"
-          >
-            Services
-          </a>
+          <a href="#services">Services</a>
         </li>
         <li>
-          <button
-            onClick={() => {
-              setCurrentPage(pages[1]);
-            }}
-          >
-            Contact
-          </button>
+          <a href="#contact">Contact</a>
         </li>
       </ul>
     </nav>

@@ -1,11 +1,8 @@
 import React from "react";
-import Services from "../Services";
-import Offering from "../Offering";
 import scissorsImg from "../../assets/scissors.png";
 
 const Home = () => {
   return (
-    <>
       <section id="home">
         <header>
           <h1>
@@ -19,10 +16,6 @@ const Home = () => {
           </h2>
         </header>
       </section>
-      <Services />
-      <Offering />
-      {/* <Testimonials /> */}
-    </>
   );
 };
 
