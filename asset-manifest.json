@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/barber/static/css/main.8640778d.css",
-    "main.js": "/barber/static/js/main.03faf00d.js",
+    "main.css": "/barber/static/css/main.947e58c5.css",
+    "main.js": "/barber/static/js/main.e6adec6d.js",
     "static/js/787.07f71454.chunk.js": "/barber/static/js/787.07f71454.chunk.js",
     "static/media/mullet.png": "/barber/static/media/mullet.3fe45fdae816a4d37d1b.png",
     "static/media/mobile-barber.jpg": "/barber/static/media/mobile-barber.0083b59c2a0527a8c848.jpg",
@@ -15,12 +15,12 @@
     "static/media/scissors.png": "/barber/static/media/scissors.e8c587e2a97f680008a2.png",
     "static/media/location.png": "/barber/static/media/location.f122b6b031a6e4a5f63b.png",
     "index.html": "/barber/index.html",
-    "main.8640778d.css.map": "/barber/static/css/main.8640778d.css.map",
-    "main.03faf00d.js.map": "/barber/static/js/main.03faf00d.js.map",
+    "main.947e58c5.css.map": "/barber/static/css/main.947e58c5.css.map",
+    "main.e6adec6d.js.map": "/barber/static/js/main.e6adec6d.js.map",
     "787.07f71454.chunk.js.map": "/barber/static/js/787.07f71454.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.8640778d.css",
-    "static/js/main.03faf00d.js"
+    "static/css/main.947e58c5.css",
+    "static/js/main.e6adec6d.js"
   ]
 }
