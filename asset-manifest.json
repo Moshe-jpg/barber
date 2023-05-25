@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/barber/static/css/main.947e58c5.css",
-    "main.js": "/barber/static/js/main.e6adec6d.js",
+    "main.css": "/barber/static/css/main.ee74f06b.css",
+    "main.js": "/barber/static/js/main.fbf44698.js",
     "static/js/787.07f71454.chunk.js": "/barber/static/js/787.07f71454.chunk.js",
     "static/media/mullet.png": "/barber/static/media/mullet.3fe45fdae816a4d37d1b.png",
     "static/media/mobile-barber.jpg": "/barber/static/media/mobile-barber.0083b59c2a0527a8c848.jpg",
@@ -13,14 +13,18 @@
     "static/media/haircut.png": "/barber/static/media/haircut.d80d189b123e60756395.png",
     "static/media/fire-logo.png": "/barber/static/media/fire-logo.a062d288eae1bb40f787.png",
     "static/media/scissors.png": "/barber/static/media/scissors.e8c587e2a97f680008a2.png",
+    "static/media/instagram.png": "/barber/static/media/instagram.a73bcb2ae311c7d3b317.png",
+    "static/media/meta.png": "/barber/static/media/meta.b0e4f28b2b7e479f9fda.png",
+    "static/media/phone.png": "/barber/static/media/phone.ead502ac63ad0fd9f201.png",
     "static/media/location.png": "/barber/static/media/location.f122b6b031a6e4a5f63b.png",
+    "static/media/gmail.png": "/barber/static/media/gmail.5f30c93be377c49dc948.png",
     "index.html": "/barber/index.html",
-    "main.947e58c5.css.map": "/barber/static/css/main.947e58c5.css.map",
-    "main.e6adec6d.js.map": "/barber/static/js/main.e6adec6d.js.map",
+    "main.ee74f06b.css.map": "/barber/static/css/main.ee74f06b.css.map",
+    "main.fbf44698.js.map": "/barber/static/js/main.fbf44698.js.map",
     "787.07f71454.chunk.js.map": "/barber/static/js/787.07f71454.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.947e58c5.css",
-    "static/js/main.e6adec6d.js"
+    "static/css/main.ee74f06b.css",
+    "static/js/main.fbf44698.js"
   ]
 }
