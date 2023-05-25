@@ -13,6 +13,7 @@ const styles = () => {
       imgSide: "right",
       imgSrc: burstFade,
       altTag: "Burst Fade",
+      flipSide: "",
     },
     {
       title: "Low Taper",
@@ -20,6 +21,7 @@ const styles = () => {
       imgSide: "left",
       imgSrc: lowTaper,
       altTag: "Low Taper",
+      flipSide: "",
     },
     {
       title: "Mullet",
@@ -27,6 +29,7 @@ const styles = () => {
       imgSide: "right",
       imgSrc: mullet,
       altTag: "Mullet",
+      flipSide: "flip",
     },
     {
       title: "Mid Fade",
@@ -34,6 +37,7 @@ const styles = () => {
       imgSide: "left",
       imgSrc: midFade,
       altTag: "Mid Fade",
+      flipSide: "",
     },
     {
       title: "Beard Lineup",
@@ -41,6 +45,7 @@ const styles = () => {
       imgSide: "right",
       imgSrc: beard,
       altTag: "Beard Lineup",
+      flipSide: "flip",
     },
   ];
 
@@ -61,7 +66,7 @@ const styles = () => {
                 height="100"
                 src={style.imgSrc}
                 alt={style.altTag}
-                className={`${style.imgSide}`}
+                className={`${style.imgSide} ${style.flipSide}`}
               ></img>
             </div>
           </li>

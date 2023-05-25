@@ -12,7 +12,7 @@ const Home = () => {
             <img className="header-logo" src={scissorsImg} alt="Razor"></img>
           </div>
           <h2>
-            <span>The Cleanest Cuts Fr</span>
+            <span>Home Of The Cleanest Cuts</span>
           </h2>
         </header>
       </section>
